@@ -8,6 +8,7 @@ module.exports = {
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
   },
+  pathPrefix: "/gatsby-starter",
   plugins: [
     // Expose `/data` to graphQL layer
     {
